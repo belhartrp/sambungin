@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+tools/dataset/node_modules
+tools/dataset/.cache
+.DS_Store
+e2e/shots

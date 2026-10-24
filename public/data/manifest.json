@@ -1,0 +1,107 @@
+{
+  "version": "2026-10-24",
+  "format": "display|<kategori><tingkat><sumber-hex>",
+  "languages": {
+    "id": {
+      "file": "id.txt",
+      "abbreviations": 217,
+      "hunspellRaw": 1020361,
+      "hunspellClean": 650340,
+      "roots": 41428,
+      "derivedKept": 17812,
+      "derivedDropped": 336624,
+      "rejected": 254259,
+      "afterMerge": 59589,
+      "count": 59589,
+      "byKind": {
+        "d": 59223,
+        "s": 254,
+        "p": 105,
+        "n": 7
+      },
+      "byTier": {
+        "1": 13560,
+        "2": 15568,
+        "3": 30461
+      },
+      "bytes": 772685
+    },
+    "en": {
+      "file": "en.txt",
+      "scowlRead": 123609,
+      "scowlRejected": 86,
+      "twoListExtra": 160891,
+      "afterMerge": 276720,
+      "count": 276720,
+      "byKind": {
+        "d": 276595,
+        "n": 119,
+        "p": 6
+      },
+      "byTier": {
+        "1": 40519,
+        "2": 39360,
+        "3": 196841
+      },
+      "bytes": 3942664
+    }
+  },
+  "sources": [
+    {
+      "lang": "id",
+      "bit": 1,
+      "name": "Kamus Indonesia (Hunspell id_ID) via @cspell/dict-id-id 1.0.9",
+      "license": "LGPL-3.0-only",
+      "url": "https://github.com/streetsidesoftware/cspell-dicts/tree/main/dictionaries/id_ID",
+      "usage": "Akar kata dan bentuk berimbuhan (setelah disaring dengan korpus)."
+    },
+    {
+      "lang": "id",
+      "bit": 2,
+      "name": "FrequencyWords 2018 (OpenSubtitles), hermitdave",
+      "license": "CC-BY-SA-4.0 (konten), MIT (kode)",
+      "url": "https://github.com/hermitdave/FrequencyWords",
+      "usage": "Hanya untuk memverifikasi bahwa bentuk berimbuhan benar-benar dipakai dan menentukan tingkat frekuensi."
+    },
+    {
+      "lang": "id",
+      "bit": 4,
+      "name": "Daftar kurasi Sambungin (id)",
+      "license": "CC0-1.0",
+      "url": "tools/dataset/curated/id.txt",
+      "usage": "Kata percakapan, singkatan, dan nama tempat."
+    },
+    {
+      "lang": "en",
+      "bit": 1,
+      "name": "SCOWL via wordlist-english 1.2.1",
+      "license": "MIT-style (lihat Copyright SCOWL)",
+      "url": "http://wordlist.aspell.net/",
+      "usage": "Kosakata Inggris bertingkat frekuensi (tingkat 10 sampai 70)."
+    },
+    {
+      "lang": "en",
+      "bit": 2,
+      "name": "dwyl/english-words via an-array-of-english-words 2.0.0",
+      "license": "Unlicense",
+      "url": "https://github.com/dwyl/english-words",
+      "usage": "Verifikasi silang dan kata jarang."
+    },
+    {
+      "lang": "en",
+      "bit": 4,
+      "name": "word-list 4.1.0 (sindresorhus)",
+      "license": "MIT",
+      "url": "https://github.com/sindresorhus/word-list",
+      "usage": "Verifikasi silang dan kata jarang."
+    },
+    {
+      "lang": "en",
+      "bit": 8,
+      "name": "Daftar kurasi Sambungin (en)",
+      "license": "CC0-1.0",
+      "url": "tools/dataset/curated/en.txt",
+      "usage": "Istilah populer dan nama tempat."
+    }
+  ]
+}

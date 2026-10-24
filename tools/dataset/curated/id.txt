@@ -1,0 +1,36 @@
+# Daftar kurasi Sambungin untuk bahasa Indonesia (domain publik / CC0, ditulis oleh pengembang).
+# Format: baris "[x]" menetapkan kategori; kata dipisah spasi.
+#   [p] kata percakapan, tidak baku, atau istilah populer
+#   [s] singkatan yang lazim dipakai
+#   [n] nama tempat (provinsi, kota, pulau, negara)
+# Daftar ini hanya pelengkap. Kosakata utama berasal dari kamus Hunspell (lihat DATASET.md).
+
+[p]
+gak nggak ngga enggak kagak ga udah udahan belom blom banget dong deh sih kok lho loh nih tuh kan
+kek kayak gitu gini gimana gimane kenapa emang emangnya makasih makasi bro sis gan sob bestie cewek
+cowok bokap nyokap ortu doi gebetan ayang bucin baper galau gabut mager santuy receh cuan gokil alay
+lebay gaje caper kuy woles sabi pansos halu gercep japri nongkrong ngopi nyantai ngegas ngerti ngomong
+ngasih nanya nulis bikin bilang ngapain ngapa mantul kece jadul kudet rempong ribet rese jutek garing
+lemot lola telmi kepo kepoin ngakak ngambek ngeselin nyebelin bete yoi dah yaudah yasudah bodoamat
+bobo cabut sip siap oke okelah
+selfie wifi online offline instagram youtube tiktok whatsapp facebook twitter telegram google gojek
+grab tokopedia shopee lazada netflix spotify podcast vlog vlogger selebgram influencer followers
+hashtag emoji meme viral trending streaming gamer mabar noob hoaks update upload download login logout
+password email chat spam bug gadget smartphone charger powerbank headset earphone hotspot router
+modem server website browser aplikasi komputer printer scanner youtuber blogger startup
+
+[s]
+yg dgn utk tdk krn jgn sdh blm dll dsb dst dkk kpd dr dlm tp jg sm klo kalo hp wa ig fb yt tv wc atm
+sd smp sma ktp sim npwp pln pdam rt rw dpr mpr tni polri pns umkm uas uts ipk bem kkn
+
+[n]
+aceh sumatera riau jambi bengkulu lampung jakarta banten jawa yogyakarta bali lombok sumbawa flores
+timor kalimantan sulawesi gorontalo maluku ternate ambon papua jayapura medan padang palembang
+pekanbaru batam bandung bogor bekasi depok tangerang semarang surabaya malang solo surakarta denpasar
+mataram kupang pontianak banjarmasin balikpapan samarinda manado makassar palu kendari sabang
+parapat toba nias natuna belitung bangka madura sumba halmahera seram buru
+indonesia malaysia singapura thailand vietnam filipina myanmar kamboja laos brunei jepang korea
+tiongkok cina india pakistan bangladesh iran irak turki mesir afrika nigeria kenya maroko ethiopia
+rusia ukraina polandia jerman perancis prancis inggris skotlandia irlandia belanda belgia swiss austria
+italia spanyol portugal yunani swedia norwegia finlandia denmark amerika kanada meksiko brasil
+argentina chili kolombia peru kuba australia selandia asia eropa antartika oseania

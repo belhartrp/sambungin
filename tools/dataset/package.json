@@ -1,0 +1,17 @@
+{
+  "name": "sambungin-dataset-tools",
+  "private": true,
+  "type": "module",
+  "description": "Alat pembangun dataset kosakata Sambungin (dipisah dari aplikasi agar instalasi aplikasi tetap ringan).",
+  "scripts": {
+    "fetch": "node fetch-corpus.mjs",
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@cspell/dict-id-id": "1.0.9",
+    "an-array-of-english-words": "2.0.0",
+    "cspell-trie-lib": "10.4.0",
+    "word-list": "4.1.0",
+    "wordlist-english": "1.2.1"
+  }
+}

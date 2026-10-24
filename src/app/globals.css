@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Atkinson Hyperlegible Next Variable', ui-sans-serif, system-ui, -apple-system,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --color-canvas: #f6f7fb;
+  --color-surface: #ffffff;
+  --color-ink: #151827;
+  --color-muted: #5a6078;
+  --color-line: #e2e5ef;
+  --color-line-strong: #c9cde0;
+  --color-accent: #4535e0;
+  --color-accent-strong: #3527c2;
+  --color-accent-soft: #efedfd;
+  --color-ok: #15803d;
+  --color-ok-soft: #e7f5ec;
+  --color-bad: #b42318;
+  --color-bad-soft: #fdeceb;
+}
+
+html {
+  color-scheme: light;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+}
+
+/* Cincin denyut mikrofon: hanya untuk pengguna yang tidak membatasi animasi. */
+@media (prefers-reduced-motion: no-preference) {
+  .mic-pulse::after {
+    content: '';
+    position: absolute;
+    inset: -6px;
+    border-radius: 9999px;
+    border: 2px solid var(--color-accent);
+    opacity: 0;
+    animation: mic-ring 1.4s ease-out infinite;
+  }
+  @keyframes mic-ring {
+    0% { transform: scale(0.92); opacity: 0.55; }
+    100% { transform: scale(1.18); opacity: 0; }
+  }
+  .toast-in {
+    animation: toast-in 160ms ease-out;
+  }
+  @keyframes toast-in {
+    from { transform: translateY(8px); opacity: 0; }
+    to { transform: none; opacity: 1; }
+  }
+}
+
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+
+.tabular {
+  font-variant-numeric: normal;
+}
